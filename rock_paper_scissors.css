@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 40px auto;
+}
+
+#results {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 40px auto;
+  color: #ffeb3b;
+}
+
+#playerChoice,
+#computerChoice {
+  margin-top: 20px;
+}
+
+.button-container {
+  margin: 20px auto;
+}
+
+button {
+  width: 60%;
+  padding: 12px 0;
+  margin: 10px auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background-color: #111;
+  color: #ffeb3b;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.07);
+}
